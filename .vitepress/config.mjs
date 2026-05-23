@@ -38,7 +38,6 @@ export default defineConfig({
             { text: 'About Me', link: '/#about' },
             { text: 'News', link: '/#news' },
             { text: 'Publications', link: '/#publications' },
-            { text: 'Code', link: '/#code' },
             { text: 'Data', link: '/#data' },
             { text: 'Contact', link: '/#contact' }
           ]
