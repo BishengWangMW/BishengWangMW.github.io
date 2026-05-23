@@ -1,0 +1,142 @@
+/* =========================================
+   1. 顶部导航栏 (学术蓝 + 变窄！)
+========================================= */
+
+
+:root, .dark {
+  --vp-nav-bg-color: #0056b3 !important;
+  --vp-nav-border-color: transparent !important;
+  --vp-nav-height: 40px !important;
+
+  /* 🎯 新增这行：强行把整个侧边栏的宽度变窄！ */
+  --vp-sidebar-width: 250px !important;
+}
+
+/* 覆盖左上角顽固白块 */
+.VPNavBar.has-sidebar .title,
+.VPNavBar.has-sidebar .content,
+.VPNavBar {
+  background-color: var(--vp-nav-bg-color) !important;
+  border-bottom: none !important;
+}
+
+/* 顶栏文字、图标变白 */
+.VPNavBarMenuLink, .VPNavBarAppearance, .social-link, .title {
+  color: #ffffff !important;
+}
+
+/* =========================================
+   2. 侧边栏 (极限压缩间距 + 强制分割线)
+========================================= */
+/* 外层白盒子加浅灰色边框 */
+.VPSidebar .group {
+  border: 1px solid #dcdfe6 !important;
+  border-radius: 6px !important;
+  padding: 0 !important;
+
+  /* 🎯 核心修改：把它往下推 24px，左右和下面保持为 0 */
+  margin: 24px 0 0 0 !important;
+
+  background-color: #ffffff !important;
+  overflow: hidden !important;
+}
+
+/* 🎯 极其野蛮地干掉所有 VitePress 自带的多余间距 */
+.VPSidebar .VPSidebarItem,
+.VPSidebar .item {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 🎯 强制给每一行加底部分割线 (精准命中 .item 这一层) */
+.VPSidebar .VPSidebarItem > .item {
+  border-bottom: 1px solid #ebeef5 !important;
+}
+
+/* 最后一项去掉底线，保持边框干净 */
+.VPSidebar .VPSidebarItem:last-child > .item {
+  border-bottom: none !important;
+}
+
+/* 🎯 真正控制文字上下间距的地方（极限压缩！） */
+.VPSidebar .VPLink,
+.VPSidebar .link {
+  display: block !important;
+  /* 关键：上下原来是 8px，现在砍半到 4px！左右保持 16px */
+  padding: 3px 20px !important;
+  line-height: 1.4 !important;
+  /* 新增：稍微调小字号，显得更紧凑专业 */
+  font-size: 14px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+/* 蓝底白字悬停交互保持不变 */
+.VPSidebar .VPLink:hover,
+.VPSidebar .link:hover {
+  background-color: #0056b3 !important;
+}
+.VPSidebar .VPLink:hover .text,
+.VPSidebar .link:hover .text {
+  color: #ffffff !important;
+}
+
+/* 蓝底白字悬停交互 */
+.VPSidebar .VPLink:hover,
+.VPSidebar .link:hover {
+  background-color: #0056b3 !important;
+}
+.VPSidebar .VPLink:hover .text,
+.VPSidebar .link:hover .text {
+  color: #ffffff !important;
+}
+
+/* =========================================
+   3. 三栏微调：让右侧目录变窄，释放正文空间
+   ========================================= */
+@media (min-width: 960px) {
+  /* 1. 让最外层的包裹容器不居中，尽量往左靠 */
+  .VPDoc .container {
+    margin: 8px !important;
+    max-width: none !important;
+  }
+
+  /* 2. 接管正文加右侧目录的总宽度，让他们紧凑排列 */
+  .VPDoc .content-container {
+    margin: 0 !important;
+    /* 侧边栏200px + 正文850px + 右侧目录160px + 间距 = 约1250px */
+    max-width: 1250px !important;
+  }
+
+  /* 3. 核心：强制把右侧大纲目录（aside）的宽度缩窄到 160px（原厂是256px） */
+  .VPDoc .aside {
+    width: 160px !important;
+    padding-left: 16px !important; /* 缩小它和正文之间的间隙 */
+  }
+
+  /* 4. 确保右侧目录变窄后，里面的文字和分割线也顺从这个宽度 */
+  .VPDoc .aside-container {
+    width: 160px !important;
+  }
+
+  /* 5. 稍微调小右侧目录的字号，让它在窄空间里也显示得很精致 */
+  .VPDoc .outline-link {
+    font-size: 13px !important;
+  }
+}
+
+/* 干掉二级标题自带的边框线 */
+.vp-doc h2 {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
