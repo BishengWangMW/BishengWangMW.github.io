@@ -25,9 +25,9 @@ outline: false
 
 ## News {#news}
 ---
-* **[2026/10]** One paper was accepted to the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027).
-* **[2026/04]** One paper was accepted for publication in the IEEE Open Journal of Signal Processing.
-* **[2026/01]** One paper was accepted to the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2026).
+* **[2026/10]** One paper was accepted to WACV 2027.
+* **[2026/04]** One paper was accepted for publication in the IEEE Open Journal of Signal Processing (OJ-SP).
+* **[2026/01]** One paper was accepted to ICASSP 2026.
 * **[2025/12]** Appointed as an Assistant Researcher at INESC TEC.
 * **[2025/03]** Joined CTM (VCMI group) at INESC TEC as a post-doctoral researcher.
 
