@@ -25,7 +25,7 @@ outline: false
 
 ## News {#news}
 ---
-* **[2025/03]** Joined CTM (VCMI group) at INESC TEC as an assistant researcher.
+* **[2025/03]** Joined CTM (VCMI group) at INESC TEC as a post-doctoral researcher.
 
 
 
