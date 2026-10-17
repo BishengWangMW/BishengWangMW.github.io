@@ -11,6 +11,7 @@ export default defineConfig({
     // 1. 顶部导航栏
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Publications', link: '/Publications' },
       { text: 'PerCS', link: '/percs' },
       { text: 'Project', link: '/project' },
       { text: 'Code', link: '/code' },

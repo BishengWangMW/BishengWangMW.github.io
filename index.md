@@ -35,7 +35,7 @@ outline: false
 
 ## Selected Publications {#publications}
 ---
-Please see also at [Google Scholar](https://scholar.google.com/citations?user=MaY3KEAAAAAJ&hl=zh-CN).
+Please see the complete list on my [Publications](/Publications) page or at [Google Scholar](https://scholar.google.com/citations?user=MaY3KEAAAAAJ&hl=zh-CN).
 
 <div class="vp-raw" style="display: flex; align-items: flex-start; gap: 20px; margin-top: 16px; margin-bottom: 20px; padding-bottom: 16px;">
 <div style="flex-shrink: 0; width: 110px;">
@@ -43,7 +43,7 @@ Please see also at [Google Scholar](https://scholar.google.com/citations?user=Ma
 </div>
 <div style="flex-grow: 1; font-size: 14px; line-height: 1.35; color: var(--vp-c-text-1);">
 <div style="margin: 0 0 3px 0 !important; font-size: 15px; font-weight: 700; color: #0056b3; padding: 0 !important; line-height: 1.3;">Depth Enhanced Cascaded Framework for OCTA Segmentation with Structure and Connectivity-Aware Losses</div>
-<div style="color: #4a5568; margin: 0 0 2px 0 !important; padding: 0 !important;"><strong>Wang B</strong>, Wang Y, Cardoso J S, et al.</div>
+<div style="color: #4a5568; margin: 0 0 2px 0 !important; padding: 0 !important;"><strong><u>Wang B</u></strong>, Wang Y, Cardoso J S, et al.</div>
 <div style="color: #718096; font-style: italic; margin: 0 0 4px 0 !important; padding: 0 !important;">IEEE Open Journal of Signal Processing, 2026.</div>
 <div style="font-size: 13px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 0 !important; padding: 0 !important; line-height: 1 !important; position: relative;">
 <a href="https://ieeexplore.ieee.org/abstract/document/11503897" target="_blank" style="color: #0056b3; text-decoration: none; font-weight: 500; display: inline-block; padding: 0 !important; margin: 0 !important; line-height: 1 !important;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">[PDF]</a>
@@ -68,7 +68,7 @@ Please see also at [Google Scholar](https://scholar.google.com/citations?user=Ma
 </div>
 <div style="flex-grow: 1; font-size: 14px; line-height: 1.35; color: var(--vp-c-text-1);">
 <div style="margin: 0 0 3px 0 !important; font-size: 15px; font-weight: 700; color: #0056b3; padding: 0 !important; line-height: 1.3;">Personalized Cell Segmentation: Benchmark and Framework for Reference-Guided Cell Type Segmentation</div>
-<div style="color: #4a5568; margin: 0 0 2px 0 !important; padding: 0 !important;"><strong>Wang B</strong>, Cardoso J S, Wu L.</div>
+<div style="color: #4a5568; margin: 0 0 2px 0 !important; padding: 0 !important;"><strong><u>Wang B</u></strong>, Cardoso J S, Wu L.</div>
 <div style="color: #718096; font-style: italic; margin: 0 0 4px 0 !important; padding: 0 !important;">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.</div>
 <div style="font-size: 13px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 0 !important; padding: 0 !important; line-height: 1 !important; position: relative;">
 <a href="https://ieeexplore.ieee.org/document/11460778?denied=" target="_blank" style="color: #0056b3; text-decoration: none; font-weight: 500; display: inline-block; padding: 0 !important; margin: 0 !important; line-height: 1 !important;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">[PDF]</a>
