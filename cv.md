@@ -43,8 +43,12 @@ margin: 0 !important;
 <h2 style="font-size: 22px; font-weight: 700; border-bottom: 1px solid #e2e8f0; padding: 0 0 6px 0 !important; margin: 0 0 4px 0 !important;">Experience</h2>
 <div style="display: flex; flex-direction: column; gap: 4px; font-size: 14px; line-height: 1.5; margin: 0 0 24px 0 !important; padding: 0 !important;">
 <div style="display: flex; align-items: flex-start; margin: 0 !important; padding: 0 !important;">
-<div style="width: 180px; flex-shrink: 0; font-weight: 600; color: #718096; font-family: monospace; margin: 0 !important; padding: 0 !important;">03.2025 - present</div>
-<div style="flex-grow: 1; margin: 0 !important; padding: 0 !important;">Assistant researcher at <strong>INESC TEC</strong>, Porto, Portugal.</div>
+<div style="width: 180px; flex-shrink: 0; font-weight: 600; color: #718096; font-family: monospace; margin: 0 !important; padding: 0 !important;">12.2025 - present</div>
+<div style="flex-grow: 1; margin: 0 !important; padding: 0 !important;">Assistant Researcher at <strong>INESC TEC</strong>, Porto, Portugal.</div>
+</div>
+<div style="display: flex; align-items: flex-start; margin: 0 !important; padding: 0 !important;">
+<div style="width: 180px; flex-shrink: 0; font-weight: 600; color: #718096; font-family: monospace; margin: 0 !important; padding: 0 !important;">03.2025 - 11.2025</div>
+<div style="flex-grow: 1; margin: 0 !important; padding: 0 !important;">Postdoctoral Researcher at <strong>INESC TEC</strong>, Porto, Portugal.</div>
 </div>
 <div style="display: flex; align-items: flex-start; margin: 0 !important; padding: 0 !important;">
 <div style="width: 180px; flex-shrink: 0; font-weight: 600; color: #718096; font-family: monospace; margin: 0 !important; padding: 0 !important;">07.2022 - 07.2024</div>
