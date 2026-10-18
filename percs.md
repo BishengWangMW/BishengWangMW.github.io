@@ -56,7 +56,8 @@ pageClass: percs-page
   font-size: 34px;
 }
 .percs-hero p {
-  max-width: 820px;
+  max-width: none;
+  width: 100%;
   margin: 0 auto;
   color: var(--vp-c-text-2);
   font-size: 16px;
@@ -76,8 +77,7 @@ pageClass: percs-page
   <div class="percs-status">Work in Progress</div>
   <h1>Personalized Cell Segmentation</h1>
   <p>
-    Developing personalized and reference-guided approaches for segmenting
-    specific cell types in biomedical images.
+    Developing personalized and reference-guided approaches for segmenting specific cell types in biomedical images.
   </p>
 </div>
 
