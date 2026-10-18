@@ -4,12 +4,36 @@ sidebar: false
 aside: false
 title: PerCS
 description: Personalized Cell Segmentation research
+pageClass: percs-page
 ---
 
 <style>
+@media (min-width: 960px) {
+  .percs-page .VPDoc .container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
+  .percs-page .VPDoc .content {
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 24px !important;
+  }
+  .percs-page .VPDoc .content-container {
+    max-width: none !important;
+  }
+}
+.percs-page .vp-doc p {
+  margin: 10px 0;
+  line-height: 1.55;
+}
+.percs-page .vp-doc h2 {
+  margin: 32px 0 10px !important;
+  padding-top: 0 !important;
+  line-height: 1.35;
+}
 .percs-hero {
-  margin: 28px 0 36px;
-  padding: 40px 32px;
+  margin: 20px 0 28px;
+  padding: 34px 36px;
   text-align: center;
   border: 1px solid var(--vp-c-divider);
   border-radius: 14px;
@@ -32,18 +56,19 @@ description: Personalized Cell Segmentation research
   font-size: 34px;
 }
 .percs-hero p {
-  max-width: 680px;
+  max-width: 820px;
   margin: 0 auto;
   color: var(--vp-c-text-2);
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 .percs-coming-soon {
-  margin-top: 24px;
-  padding: 20px 24px;
+  margin-top: 18px;
+  padding: 16px 22px;
   border-left: 4px solid #0056b3;
   border-radius: 6px;
   background: var(--vp-c-bg-soft);
+  line-height: 1.5;
 }
 </style>
 
