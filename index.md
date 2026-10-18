@@ -5,13 +5,9 @@ pageClass: home-page
 ---
 
 <style>
-.home-page .vp-doc h1 {
-  margin-bottom: 10px !important;
-  line-height: 1.2;
-}
 .home-page .vp-doc h2 {
-  margin: 30px 0 6px !important;
-  padding-top: 0 !important;
+  margin: 48px 0 6px !important;
+  padding-top: 24px !important;
   line-height: 1.3;
 }
 .home-page .vp-doc h2 + hr {
@@ -21,18 +17,35 @@ pageClass: home-page
   margin: 8px 0;
   line-height: 1.5;
 }
-.home-page .vp-doc ul {
+.home-page .vp-doc ul:not(.news-list) {
   margin: 8px 0 14px;
 }
-.home-page .vp-doc li {
+.home-page .vp-doc li:not(.news-item) {
   margin: 2px 0;
   line-height: 1.5;
 }
-.home-page .home-intro {
-  margin-top: 10px !important;
-}
 .home-page .home-intro-text {
   line-height: 1.5 !important;
+}
+.home-page .news-list {
+  margin: 8px 0 14px;
+  padding: 0;
+  list-style: none;
+}
+.home-page .news-item {
+  display: grid;
+  grid-template-columns: 8px 82px minmax(0, 1fr);
+  column-gap: 8px;
+  margin: 3px 0;
+  line-height: 1.5;
+}
+.home-page .news-item::before {
+  content: "•";
+}
+.home-page .news-date {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 </style>
 
@@ -58,11 +71,13 @@ pageClass: home-page
 
 ## News {#news}
 ---
-* **[2026/10]** One paper was accepted to WACV 2027.
-* **[2026/04]** One paper was accepted for publication in the IEEE Open Journal of Signal Processing (OJ-SP).
-* **[2026/01]** One paper was accepted to ICASSP 2026.
-* **[2025/12]** Appointed as an Assistant Researcher at INESC TEC.
-* **[2025/03]** Joined CTM (VCMI group) at INESC TEC as a post-doctoral researcher.
+<ul class="news-list">
+  <li class="news-item"><span class="news-date">[2026/10]</span><span>One paper was accepted to WACV 2027.</span></li>
+  <li class="news-item"><span class="news-date">[2026/04]</span><span>One paper was accepted for publication in the IEEE Open Journal of Signal Processing (OJ-SP).</span></li>
+  <li class="news-item"><span class="news-date">[2026/01]</span><span>One paper was accepted to ICASSP 2026.</span></li>
+  <li class="news-item"><span class="news-date">[2025/12]</span><span>Appointed as an Assistant Researcher at INESC TEC.</span></li>
+  <li class="news-item"><span class="news-date">[2025/03]</span><span>Joined CTM (VCMI group) at INESC TEC as a postdoctoral researcher.</span></li>
+</ul>
 
 
 
