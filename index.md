@@ -1,12 +1,45 @@
 ---
 layout: doc
 outline: false
+pageClass: home-page
 ---
+
+<style>
+.home-page .vp-doc h1 {
+  margin-bottom: 10px !important;
+  line-height: 1.2;
+}
+.home-page .vp-doc h2 {
+  margin: 30px 0 6px !important;
+  padding-top: 0 !important;
+  line-height: 1.3;
+}
+.home-page .vp-doc h2 + hr {
+  margin: 6px 0 10px !important;
+}
+.home-page .vp-doc > p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+.home-page .vp-doc ul {
+  margin: 8px 0 14px;
+}
+.home-page .vp-doc li {
+  margin: 2px 0;
+  line-height: 1.5;
+}
+.home-page .home-intro {
+  margin-top: 10px !important;
+}
+.home-page .home-intro-text {
+  line-height: 1.5 !important;
+}
+</style>
 
 # Bisheng Wang {#about}
 
 
-<div class="vp-raw" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 20px;">
+<div class="vp-raw home-intro" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 20px;">
   
   <div style="flex-shrink: 0;">
   <img 
@@ -16,7 +49,7 @@ outline: false
   />
   </div>
 
-  <div style="flex-grow: 1; line-height: 1.7; color: var(--vp-c-text-1); text-align: justify;">
+  <div class="home-intro-text" style="flex-grow: 1; line-height: 1.7; color: var(--vp-c-text-1); text-align: justify;">
   I am an assistant researcher at INESC TEC, Porto, Portugal. I am currently doing researches in Computer Vision, and Medical Image Analysis (OCTA Segmentation and Cell segmentation). Please find more information about me <a href="/cv" style="color: #0056b3; font-weight: 600; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">here</a>.
   </div>
 
